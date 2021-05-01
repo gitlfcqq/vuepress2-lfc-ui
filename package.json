@@ -1,0 +1,16 @@
+{
+  "name": "vuepress2-lfc-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "longfc <longfuchu@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "clean:cache": "rimraf node_modules/.cache",
+    "clean:lib": "rimraf node_modules"
+  },
+  "dependencies": {
+    "vuepress-vite": "^2.0.0-beta.6"
+  }
+}
