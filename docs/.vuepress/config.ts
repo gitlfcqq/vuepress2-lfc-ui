@@ -16,11 +16,11 @@ const description = 'longfc 个人前端知识库';
 
 export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 
-  title: title,
-  description: description,
+  //title: title,
+  //description: description,
   //head:head,
 
-  //base: '/vuepress2.lfc.ui/',
+  //base: '/vuepress2/',
   dest: 'vuepress2-lfc-ui',
 
   locales: {
@@ -85,29 +85,10 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     // vite 打包工具的选项
   },
   plugins: [
-/*     [
-      '@vuepress/plugin-search',
-      {
-        locales: {
-          '/': {
-            placeholder: 'Search',
-          },
-          '/zh/': {
-            placeholder: '搜索',
-          },
-        },
-      },
-    ], 
-    [
-      '@vuepress/plugin-medium-zoom', {
-        selector: 'img.zoom-custom-imgs',
-        // medium-zoom options here
-        // See: https://github.com/francoischalifour/medium-zoom#options
-        options: {
-          margin: 16
-        }
-      }
-    ],*/
+    '@vuepress/medium-zoom',
+    '@vuepress/back-to-top',
+    '@vuepress/plugin-nprogress'//在切换到另一个页面时会展示进度条
+    //'@vuepress/plugin-search'
   ],
 
 });

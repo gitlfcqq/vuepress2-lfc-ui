@@ -33,8 +33,9 @@ yarn build
 ```
 
 ```plugin
-yarn add -D @vuepress/plugin-search
-yarn add -D @vuepress/plugin-medium-zoom
+yarn add -D @vuepress/plugin-search@next
+yarn add -D @vuepress/plugin-docsearch@next
+npm i @vuepress/plugin-search
 ```
 
 

@@ -51,7 +51,7 @@ export const zh: SidebarConfig = {
       isGroup: true,
       children: [
         //'/zh/js/ES6ToES12'
-        '/zh/js/es6tonext/frist.md',
+        '/zh/js/es6tonext/index.md',
         '/zh/js/es6tonext/es6.md',
         '/zh/js/es6tonext/es7.md',
         '/zh/js/es6tonext/es8.md',
