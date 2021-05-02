@@ -10,8 +10,9 @@
     "clean:cache": "rimraf node_modules/.cache",
     "clean:lib": "rimraf node_modules"
   },
-  "dependencies": { 
-    "@vuepress/plugin-search": "^2.0.0-beta.12", 
+  "dependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.12",
+    "install": "^0.13.0",
     "vuepress-vite": "^2.0.0-beta.6"
   }
 }

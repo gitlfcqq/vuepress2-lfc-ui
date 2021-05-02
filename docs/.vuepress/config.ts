@@ -100,16 +100,35 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
   plugins: [
     '@vuepress/medium-zoom',
     '@vuepress/back-to-top',
-    '@vuepress/plugin-nprogress'//在切换到另一个页面时会展示进度条
-    /*  ['@vuepress/plugin-code-copy', {
-       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
-       copyMessage: '复制成功', // default is 'Copy successfully and then paste it for use.'
-       duration: 300, // prompt message display time.
-       showInMobile: false, // whether to display on the mobile side, default: false.
-       copyTitle: "复制代码",
-       copyName: "复制"
-     }] */
-    //'@vuepress/plugin-search'
+    '@vuepress/plugin-nprogress',//在切换到另一个页面时会展示进度条
+
+    //['@vuepress/plugin-debug'],
+    /*     ['@vuepress/plugin-pwa'],
+        [
+          '@vuepress/plugin-pwa-popup',
+          {
+            locales: {
+              '/zh/': {
+                message: '发现新内容可用',
+                buttonText: '刷新',
+              },
+            },
+          },
+        ], */
+
+    /*     [
+          '@vuepress/plugin-search',
+          {
+            locales: {
+              '/': {
+                placeholder: 'Search',
+              },
+              '/zh/': {
+                placeholder: '搜索',
+              },
+            },
+          },
+        ], */
   ],
 
 });
