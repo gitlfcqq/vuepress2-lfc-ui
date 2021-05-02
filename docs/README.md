@@ -5,7 +5,7 @@ heroText: LONGFC
 tagline: 个人前端知识库(网络收集及整理)
 actions:
   - text: 进入
-    link: /zh/common/frist.md
+    link: ./zh/common/frist.md
     type: primary
   - text: Github
     link: 'https://github.com/longfc/vuepress2-lfc-ui'

@@ -1,4 +1,6 @@
 # Git
+<!-- Markdown 目录语法 -->
+[[toc]]
 ## Git 安装
 ![](./common/media/image2.jpeg)
 

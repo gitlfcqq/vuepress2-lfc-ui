@@ -14,7 +14,7 @@ export const zh: NavbarConfig = [
     children: [
       { text: '前端常用命令', link: '/zh/uicommand/index.md' },
       { text: '前端知识认识', link: '/zh/common/index.md' },
-      { text: 'vuepress认识', link: '/zh/vuepress/vuepress/index.md' },
+      { text: 'vuepress认识', link: '/zh/vuepress/index.md' },
     ]
   },
   {

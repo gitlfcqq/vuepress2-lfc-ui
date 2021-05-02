@@ -36,6 +36,8 @@ yarn build
 yarn add -D @vuepress/plugin-search@next
 yarn add -D @vuepress/plugin-docsearch@next
 npm i @vuepress/plugin-search
+
+//"@vuepress/plugin-search": "^2.0.0-beta.12",
 ```
 
 

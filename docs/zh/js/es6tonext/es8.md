@@ -1,5 +1,6 @@
 # 五、ES8 新特性
-
+<!-- Markdown 目录语法 -->
+[[toc]]
 ## 0、功能概述
 
 ## 1、async 和 await

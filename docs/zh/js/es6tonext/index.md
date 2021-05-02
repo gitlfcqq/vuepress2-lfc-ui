@@ -1,4 +1,6 @@
 # ES6-ES11学习笔记
+<!-- Markdown 目录语法 -->
+[[toc]]
 
 文件信息
 
@@ -88,7 +90,6 @@
 > 查看网址：<http://kangax.github.io/compat-table/es6>
 
 ![](./imgs/media/image1.png)
-
 
 
 

@@ -8,3 +8,4 @@ docx
 .vscode
 .cache
 .temp
+.yarn
