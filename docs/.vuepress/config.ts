@@ -60,9 +60,6 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
         // page meta
         editLinkText: '编辑此页',
       },
-      /**
-       * Chinese locale config
-       */
       '/zh/': {
         // navbar
         navbar: navbar.zh,
@@ -100,33 +97,13 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
   plugins: [
     '@vuepress/medium-zoom',
     '@vuepress/back-to-top',
-    '@vuepress/plugin-nprogress',//在切换到另一个页面时会展示进度条
-
-    //['@vuepress/plugin-debug'],
-    /*     ['@vuepress/plugin-pwa'],
-        [
-          '@vuepress/plugin-pwa-popup',
-          {
-            locales: {
-              '/zh/': {
-                message: '发现新内容可用',
-                buttonText: '刷新',
-              },
-            },
-          },
-        ], */
-
+    '@vuepress/plugin-nprogress',
+    '@vuepress/plugin-search',
     /*     [
-          '@vuepress/plugin-search',
+          '@vuepress/docsearch',
           {
-            locales: {
-              '/': {
-                placeholder: 'Search',
-              },
-              '/zh/': {
-                placeholder: '搜索',
-              },
-            },
+            apiKey: '3a539aab83105f01761a137c61004d85',
+            indexName: 'vuepress'
           },
         ], */
   ],

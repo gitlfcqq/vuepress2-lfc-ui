@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "longfc <longfuchu@163.com>",
+  "repository": "https://github.com/longfc/vuepress2-lfc-ui.git",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
@@ -10,9 +11,10 @@
     "clean:cache": "rimraf node_modules/.cache",
     "clean:lib": "rimraf node_modules"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@vuepress/plugin-search": "^2.0.0-beta.12",
     "install": "^0.13.0",
-    "vuepress-vite": "^2.0.0-beta.6"
+    "vuepress-vite": "^2.0.0-beta.12"
   }
 }
