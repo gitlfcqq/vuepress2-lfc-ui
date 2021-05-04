@@ -40,7 +40,7 @@
 
 ### 
 
-> ![](../imgs/media/image47.png)
+> ![](./imgs/media/image47.png)
 
 ## 2、指数操作符
 ### 概述：
@@ -65,4 +65,4 @@
 ```
 ### 运行结果：
 
-![](../imgs/media/image48.png)
+![](./imgs/media/image48.png)

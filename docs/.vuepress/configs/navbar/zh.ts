@@ -18,13 +18,6 @@ export const zh: NavbarConfig = [
     ]
   },
   {
-    text: "JavaScript",
-    children: [
-      { text: 'ES6ToES12', link: '/zh/js/es6tonext/index.md' },
-      // { text: 'Babel学习', link: '/zh/js/Babel' },
-    ]
-  },
-  {
     text: "VUE",
     children: [
       { text: 'VUE学习', link: '/zh/vue/VUEStudy.md' },

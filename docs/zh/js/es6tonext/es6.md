@@ -114,7 +114,7 @@
     // 报错Uncaught SyntaxError: Identifier 'dog' has already been declared;
 ```
 #### 运行结果：
-![](../imgs/media/image2.png)
+![](./imgs/media/image2.png)
 
 ### 块儿级作用域（局部变量）：
 #### 代码实现：
@@ -128,7 +128,7 @@
     // 报错：Uncaught ReferenceError: cat is not defined
 ```
 #### 运行结果：
-![](../imgs/media/image3.png)
+![](./imgs/media/image3.png)
 
 ### 不存在变量提升：
 
@@ -148,7 +148,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image4.png)
+![](./imgs/media/image4.png)
 
 ### 不影响作用域链：
 
@@ -166,7 +166,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image5.png)
+![](./imgs/media/image5.png)
 
 ### 全部演示代码：
 
@@ -272,7 +272,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image6.png)
+![](./imgs/media/image6.png)
 
 ## 2、const 关键字
 
@@ -293,7 +293,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image7.png)
+![](./imgs/media/image7.png)
 
 ### 不允许重复声明：
 
@@ -305,7 +305,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image8.png)
+![](./imgs/media/image8.png)
 
 ### 值不允许修改：
 
@@ -321,7 +321,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image9.png)
+![](./imgs/media/image9.png)
 
 ### 块儿级作用域（局部变量）：
 
@@ -338,7 +338,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image10.png)
+![](./imgs/media/image10.png)
 
 ### 全部演示代码：
 ```html
@@ -599,7 +599,7 @@
 ```
 
 ### 运行结果：
-> ![](../imgs/media/image11.png)
+> ![](./imgs/media/image11.png)
 
 ### 需求-1：点击 div 2s 后颜色变成『粉色』：
 
@@ -643,7 +643,7 @@
 
 > **报错：**
 
-![](../imgs/media/image12.png)
+![](./imgs/media/image12.png)
 
 #### 传统写法问题解决：
 ```html
@@ -714,7 +714,7 @@
         width: 200px;
         height: 200px;
         background: #58a;
-      }
+      } 
    </style>
   </head>
   <body>
@@ -857,7 +857,7 @@
 
 ### 运行结果：
 
-![](../imgs/media/image13.png)
+![](./imgs/media/image13.png)
 
 ## 9、扩展运算符
 
@@ -896,7 +896,7 @@
 
 ### 运行结果：
 
-![](../imgs/media/image14.png)
+![](./imgs/media/image14.png)
 
 #### 应用：
 ```html
@@ -937,7 +937,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image15.png)
+![](./imgs/media/image15.png)
 
 ## 10、Symbol
 
@@ -1105,7 +1105,7 @@
 ​```html
 #### 运行结果：
 
-![](../imgs/media/image16.png)
+![](./imgs/media/image16.png)
 
 ## 11、迭代器
 
@@ -1170,7 +1170,7 @@
 
 ### 
 
-> ![](../imgs/media/image17.png)
+> ![](./imgs/media/image17.png)
 
 ### 迭代器自定义遍历对象：
 
@@ -1232,7 +1232,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image18.png)
+![](./imgs/media/image18.png)
 
 ## 12、生成器
 
@@ -1284,7 +1284,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image19.png)
+![](./imgs/media/image19.png)
 
 ### 生成器函数的参数传递:
 ```html
@@ -1323,7 +1323,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image20.png)
+![](./imgs/media/image20.png)
 
 ### 生成器函数实例1：
 ```html
@@ -1393,7 +1393,7 @@
 ​```html
 #### 运行结果：
 
-![](../imgs/media/image21.png)
+![](./imgs/media/image21.png)
 
 ### 生成器函数实例2：
 ​```html
@@ -1459,7 +1459,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image22.png)
+![](./imgs/media/image22.png)
 
 ## 13、Promise
 
@@ -1549,7 +1549,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image23.jpeg)
+![](./imgs/media/image23.jpeg)
 
 ### Promise封装：
 ```html
@@ -1601,7 +1601,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image24.jpeg)
+![](./imgs/media/image24.jpeg)
 
 ### Promise封装Ajax请求：
 
@@ -1652,7 +1652,7 @@
 ```
 #### 运行结果：
 
-> ![](../imgs/media/image25.jpeg)
+> ![](./imgs/media/image25.jpeg)
 
 ### Promise封装Ajax请求：
 ```html
@@ -1712,7 +1712,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image26.jpeg)
+![](./imgs/media/image26.jpeg)
 
 ### Promise.prototype.then：
 
@@ -1775,7 +1775,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image27.jpeg)
+![](./imgs/media/image27.jpeg)
 
 ### Promise实践练习：
 
@@ -1813,7 +1813,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image28.jpeg)
+![](./imgs/media/image28.jpeg)
 
 #### Promise实现：
 ```html
@@ -1876,7 +1876,7 @@
 ```
 #### 运行结果：
 
-> ![](../imgs/media/image29.jpeg)
+> ![](./imgs/media/image29.jpeg)
 
 ### Promise对象catch方法：
 
@@ -1917,7 +1917,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image30.jpeg)
+![](./imgs/media/image30.jpeg)
 
 ## 14、Set集合
 
@@ -1980,7 +1980,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image31.png)
+![](./imgs/media/image31.png)
 
 ### Set集合实践：
 
@@ -2026,7 +2026,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image32.png)
+![](./imgs/media/image32.png)
 
 ## 15、Map集合
 
@@ -2092,7 +2092,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image33.png)
+![](./imgs/media/image33.png)
 
 ## 16、class类
 
@@ -2164,7 +2164,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image34.jpeg)
+![](./imgs/media/image34.jpeg)
 
 ### class静态成员：
 
@@ -2218,7 +2218,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image35.png)
+![](./imgs/media/image35.png)
 
 ### ES5构造函数实现继承：
 
@@ -2276,7 +2276,7 @@
 ```
 
 #### 运行结果：
-![](../imgs/media/image36.png)
+![](./imgs/media/image36.png)
 
 ### ES6class类继承：
 
@@ -2332,7 +2332,7 @@
 
 #### 运行结果：
 
-> ![](../imgs/media/image37.jpeg)
+> ![](./imgs/media/image37.jpeg)
 
 ### 子类对父类方法重写：
 
@@ -2395,7 +2395,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image38.jpeg)
+![](./imgs/media/image38.jpeg)
 
 ### class中的getter和setter设置：
 
@@ -2431,7 +2431,7 @@
 
 #### 运行结果：
 
-![](../imgs/media/image39.png)
+![](./imgs/media/image39.png)
 
 ## 17、数值扩展
 
@@ -2536,7 +2536,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image40.png)
+![](./imgs/media/image40.png)
 
 ## 18、对象扩展
 
@@ -2607,7 +2607,7 @@
 ```
 #### 运行结果：
 
-![](../imgs/media/image41.jpeg)
+![](./imgs/media/image41.jpeg)
 
 ## 19、模块化
 
@@ -2642,7 +2642,7 @@
 
 > **运行结果：**
 
-![](../imgs/media/image42.png)
+![](./imgs/media/image42.png)
 
 ### ES6暴露数据语法汇总：
 
@@ -2713,7 +2713,7 @@ export default {
 ```
 #### 运行结果：
 
-![](../imgs/media/image43.png)
+![](./imgs/media/image43.png)
 
 ### ES6导入模块语法汇总：
 
@@ -2780,7 +2780,7 @@ export default {
 
 #### 运行结果：
 
-![](../imgs/media/image44.png)
+![](./imgs/media/image44.png)
 
 ### 使用模块化的另一种方式：
 
@@ -2790,7 +2790,7 @@ export default {
 
 #### 运行结果：
 
-![](../imgs/media/image45.png)
+![](./imgs/media/image45.png)
 
 ## 20、Babel对ES6模块化代码转换
 
@@ -2824,7 +2824,7 @@ npm i babel-cli babel-preset-env browserify -D
 
 目录结构
 
-![](../imgs/media/image46.png)
+![](./imgs/media/image46.png)
 
 src为js源代码
 dist为打包转换后的js目录

@@ -95,9 +95,9 @@ npm link命令同时进行全局安装及本地安装
 ## 更新模块
 
 -   使用npm update
-    <package>可以把当前目录下node_modules子目录里边的对应模块更新至最新版本
+    package可以把当前目录下node_modules子目录里边的对应模块更新至最新版本
     
--   使用npm update <package>
+-   使用npm update package
     -g可以把全局安装的对应命令行程序更新至最新版。
 
 ```js
@@ -107,19 +107,19 @@ npm link命令同时进行全局安装及本地安装
 // 更新生产环境依赖包
 
 ```js
-    npm update <package_name> --save
+    npm update package_name --save
 ```
 
 // 更新开发环境依赖包
 
 ```js
-    npm update <package_name> --save-dev
+    npm update package_name --save-dev
 ```
 
 // 更新全局安装的包
 
 ```js
-    npm update <package_name> -g
+    npm update package_name -g
 ```
 
 ## 搜索模块

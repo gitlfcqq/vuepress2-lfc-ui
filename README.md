@@ -30,18 +30,22 @@ yarn dev
 
 ```bash
 yarn build
+
+yarn cache clean
+
+yarn upgrade-interactive --latest
+
 ```
 
 ```plugin
+yarn add install -S vuepress-vite@next
 
-"install": "^0.13.0",
-yarn add -D @vuepress/plugin-search@next
-yarn add -D @vuepress/plugin-docsearch@next
-npm i @vuepress/plugin-search
-
-//"@vuepress/plugin-search": "^2.0.0-beta.12",
 yarn add install -D vuepress-vite@next
-npm i @vuepress/plugin-docsearch
+yarn add -D @vuepress/plugin-search@next
+yarn add install -D  @vuepress/plugin-pwa@next
+yarn add install -D  @vuepress/plugin-pwa-popup@next
+yarn add install -D @vuepress/plugin-debug@next
+
 ```
 
 

@@ -14,11 +14,13 @@ import type { DefaultThemeOptions, ViteBundlerOptions } from 'vuepress-vite'
 const title = '前端知识库🌬';
 const description = 'longfc 个人前端知识库';
 
-export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
-
+//export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
+module.exports = {
   title: title,
   description: description,
   head: [
+    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['style', {}, 'img { border-radius: 10px }' + 'h1.title { margin-left: 0.5em }'],
     ['meta', { name: 'author', content: 'longfc' }],
     ['meta', { name: 'keywords', content: '龙福初, longfuchu, longfc, 前端, 前端知识, web' }],
@@ -33,14 +35,17 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     ['meta', { property: 'og:description', content: description }],
   ],
 
-  //base: '/vuepress2/',
-  dest: 'vuepress2-lfc-ui',
+  //打包发布时生效，开发环境失效
+  base: '/longfc-ui-doc/',
+  //dest: '/vuepress2-lfc-ui/',
 
   locales: {
     '/zh/': {
       lang: 'zh-CN'
     }
   },
+
+  bundler: '@vuepress/vite',
 
   themeConfig: {
     logo: 'logo.png',
@@ -90,22 +95,29 @@ export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
     },
   },
 
-  bundler: '@vuepress/vite',
-  bundlerConfig: {
-    // vite 打包工具的选项
-  },
   plugins: [
     '@vuepress/medium-zoom',
     '@vuepress/back-to-top',
     '@vuepress/plugin-nprogress',
     '@vuepress/plugin-search',
-    /*     [
-          '@vuepress/docsearch',
-          {
-            apiKey: '3a539aab83105f01761a137c61004d85',
-            indexName: 'vuepress'
+    '@vuepress/plugin-debug',
+
+    ['@vuepress/plugin-pwa'],
+    [
+      '@vuepress/plugin-pwa-popup',
+      {
+        locales: {
+          '/': {
+            message: 'New content is available.',
+            buttonText: 'Refresh',
           },
-        ], */
+          '/zh/': {
+            message: '发现新内容可用',
+            buttonText: '刷新',
+          },
+        },
+      },
+    ],
   ],
 
-});
+};

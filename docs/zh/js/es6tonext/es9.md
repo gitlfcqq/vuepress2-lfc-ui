@@ -68,7 +68,7 @@
 ```
 
 ### 运行结果：
-![](../imgs/media/image52.jpeg)
+![](./imgs/media/image52.jpeg)
 
 ## 2、正则扩展：命名捕获分组
 
@@ -118,7 +118,7 @@
 
 ### 运行结果：
 
-![](../imgs/media/image53.jpeg)
+![](./imgs/media/image53.jpeg)
 
 ## 3、正则扩展：反向断言
 ### 概述：
@@ -144,7 +144,7 @@
 ```
 
 ### 运行结果：
-![](../imgs/media/image54.jpeg)
+![](./imgs/media/image54.jpeg)
 
 >## 4、正则扩展：dotAll 模式
 ### 概述：
@@ -194,4 +194,4 @@
 </html>
 ```
 ### 运行结果：
-![](../imgs/media/image55.jpeg)
+![](./imgs/media/image55.jpeg)

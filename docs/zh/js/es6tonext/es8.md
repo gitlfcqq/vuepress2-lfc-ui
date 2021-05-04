@@ -153,7 +153,7 @@ main();
 
 #### 运行结果：
 
-![](../imgs/media/image49.jpeg)
+![](./imgs/media/image49.jpeg)
 
 ### async 和 await 结合发送ajax请求：
 
@@ -210,7 +210,7 @@ main();
 
 #### 运行结果：
 
-![](../imgs/media/image50.jpeg)
+![](./imgs/media/image50.jpeg)
 
 ## 2、对象方法扩展
 
@@ -262,4 +262,4 @@ main();
 </html>
 ```
 ### 运行结果：
-![](../imgs/media/image51.jpeg)
+![](./imgs/media/image51.jpeg)
