@@ -46,13 +46,20 @@ yarn add install -D  @vuepress/plugin-pwa@next
 yarn add install -D  @vuepress/plugin-pwa-popup@next
 yarn add install -D @vuepress/plugin-debug@next
 
+  
+  "dependencies": {
+    "@vuepress/plugin-pwa": "^2.0.0-beta.13",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.13",
+    "@vuepress/plugin-search": "^2.0.0-beta.13",
+    "vuepress-vite": "^2.0.0-beta.13"
+  },
   "devDependencies": {
-    "@vuepress/plugin-debug": "^2.0.0-beta.12",
-    "@vuepress/plugin-pwa": "^2.0.0-beta.12",
-    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.12",
-    "@vuepress/plugin-search": "^2.0.0-beta.12",
+    "@vuepress/plugin-debug": "^2.0.0-beta.13",
+    "@vuepress/plugin-pwa": "^2.0.0-beta.13",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.13",
+    "@vuepress/plugin-search": "^2.0.0-beta.13",
     "install": "^0.13.0",
-    "vuepress-vite": "^2.0.0-beta.12"
+    "vuepress-vite": "^2.0.0-beta.13"
   }
 ```
 

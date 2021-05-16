@@ -12,17 +12,17 @@
     "clean:lib": "rimraf node_modules"
   },
   "dependencies": {
-    "@vuepress/plugin-pwa": "^2.0.0-beta.13",
-    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.13",
-    "@vuepress/plugin-search": "^2.0.0-beta.13",
-    "vuepress-vite": "^2.0.0-beta.13"
+    "@vuepress/plugin-pwa": "^2.0.0-beta.14",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.14",
+    "@vuepress/plugin-search": "^2.0.0-beta.14",
+    "vuepress-vite": "^2.0.0-beta.14"
   },
   "devDependencies": {
-    "@vuepress/plugin-debug": "^2.0.0-beta.13",
-    "@vuepress/plugin-pwa": "^2.0.0-beta.13",
-    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.13",
-    "@vuepress/plugin-search": "^2.0.0-beta.13",
+    "@vuepress/plugin-debug": "^2.0.0-beta.14",
+    "@vuepress/plugin-pwa": "^2.0.0-beta.14",
+    "@vuepress/plugin-pwa-popup": "^2.0.0-beta.14",
+    "@vuepress/plugin-search": "^2.0.0-beta.14",
     "install": "^0.13.0",
-    "vuepress-vite": "^2.0.0-beta.13"
+    "vuepress-vite": "^2.0.0-beta.14"
   }
 }
