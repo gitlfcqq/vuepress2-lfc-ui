@@ -46,8 +46,10 @@ module.exports = {
   },
 
   bundler: '@vuepress/vite',
-
+  //theme: 'antdocs',
+  
   themeConfig: {
+    theme: 'antdocs',
     logo: 'logo.png',
     lastUpdated: true,
     lastUpdatedText: '最后更新',
