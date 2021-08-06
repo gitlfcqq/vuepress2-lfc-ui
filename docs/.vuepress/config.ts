@@ -16,6 +16,7 @@ const description = 'longfc 个人前端知识库';
 
 //export default defineUserConfig<DefaultThemeOptions, ViteBundlerOptions>({
 module.exports = {
+  port:8099,//解决npm的默认端口8080被占用问题
   title: title,
   description: description,
   head: [
